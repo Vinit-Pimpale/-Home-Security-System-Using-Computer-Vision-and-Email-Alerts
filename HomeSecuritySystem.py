@@ -130,24 +130,7 @@ while True:
 cap.release()
 out.release()
 cv2.destroyAllWindows()
-##plt.hist(crop_image.ravel(),256,[0,256])
-##plt.show()
-##plt.hist(frame.ravel(),256,[0,256])
-##plt.show()
-##color = ('b','g','r')
-##for i,col in enumerate(color):
-##    histr = cv2.calcHist([crop_image],[i],None,[256],[0,256])
-##    plt.plot(histr,color = col)
-##    plt.xlim([0,256])
-##plt.show()
-
-##fig, (ax0, ax1) = plt.subplots(ncols=2, figsize=(8, 4))
-##ax0.hist(frame.ravel(), normed=False, histtype='step', facecolor='g', alpha=0.75)
-##ax0.set_title('Original Image')
-##ax1.hist(crop_image.ravel(),normed=False, histtype='step', alpha = 0.75)
-##ax1.set_title('Cropped Image')
-##fig.tight_layout()
-##plt.show()        
+     
 
 
         
