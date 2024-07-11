@@ -1,2 +1,4 @@
-DATA_Username = 'pimpalevinit@gmail.com'
-DATA_Password = 'apollomunich'
+#Add email as username
+DATA_Username = ''
+# Add password
+DATA_Password = ''
